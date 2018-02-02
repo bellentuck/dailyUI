@@ -1,0 +1,68 @@
+/*------- Large-scale stuff ------------------------------------------*/
+html {
+  box-sizing: 'border-box';
+} /*change the calculation of the width of an element to include padding and border.*/
+
+body {
+  background: linear-gradient(90deg, #7f00ff 10%, #e100ff 90%); /* W3C */
+  padding: 5%;
+}
+
+.container {
+  display: flex;
+  border: solid #ffcc5c;
+  border-width: 0px 0px 0px 5px;
+  flex-direction: column;
+  padding: 10px;
+}
+
+/*------- Sections w/in container ------------------------------------------*/
+
+.header, #submit {
+  font-family: sans-serif;
+  text-shadow: 1px 1px 3px #495867;
+  color: #EEEAEA;
+}
+
+.header-parent {
+  /* border-style: solid;
+  border-width: 0px 0px 0px 5px; */
+  max-width: 50%;
+}
+
+.header {
+  font-size: 600%;
+  padding: 0px 0px 40px 10px;
+}
+
+.input-parent {
+  padding: 0px 0px 0px 15px;
+  font-size: 150%;
+}
+
+#input {
+  padding: 2px 2px 2px 8px;
+}
+
+
+.button-parent {
+  padding: 25px 0px 20px 15px;
+  font-size: 120%;
+}
+
+#submit {
+ padding: 2px 8px 2px 8px;
+ background: #7f00ff;
+}
+
+#submit:visited {
+    background: #7f00ff;
+}
+
+#submit:hover {
+    background: #ffcc5c;
+}
+
+#submit:active {
+    opacity: .95;
+}
