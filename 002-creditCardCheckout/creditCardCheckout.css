@@ -1,0 +1,97 @@
+html {
+  box-sizing: 'border-box';
+} /*change the calculation of the width of an element to include padding and border.*/
+
+.creditCardCheckout {
+  margin: 0px;
+  padding: 5%;
+  background: linear-gradient(90deg, #00d2ff 10%, #3a7bd5 90%);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  max-width: 50%;
+  position: absolute;
+  margin-left: 5%;
+}
+
+
+.container {
+  background: linear-gradient(90deg, #00d2ff 10%, #3a7bd5 90%);
+  border-radius: 2px;
+  display: inline-block;
+  margin: 1rem;
+  position: relative;
+  width: 300px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.container:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+
+.header {
+  text-shadow: 1px 1px 3px #495867;
+  color: white;
+  margin-bottom: 7%;
+  font-weight: lighter;
+  font-size: 500%;
+}
+
+
+.input-parent {
+  margin-bottom: 7%;
+}
+
+.input-header, #submit {
+  font-family: sans-serif;
+  text-shadow: 1px 1px 3px #495867;
+  color: white;
+}
+
+
+.input-header {
+  font-size: 150%;
+}
+
+#input {
+  background: #fff;
+  border-radius: 2px;
+  display: inline-block;
+  font-size: 200%;
+  margin: 1rem;
+  position: relative;
+  width: 300px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+#input:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+
+
+.button-parent {
+  padding-top: 2%;
+  font-size: 140%;
+}
+
+#submit {
+  padding: 4% 8% 4% 8%;
+  background: lightcoral; /*linear-gradient(90deg, #00d2ff 10%, #3a7bd5 90%)*/
+  font-size: 120%;
+}
+
+#submit:hover {
+  background: pink;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+#submit:active {
+  opacity: .95;
+}
